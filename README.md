@@ -1,6 +1,6 @@
 # ⌨️ Typing Speed Test (using SFML)
 
-A simple typing speed test app made using **C++** and **SFML**. It tests typing speed and accuracy based on random passages. When you're done typing the passage, it gives you your WPM and accuracy score.
+A simple typing speed test app made using **C++** and **SFML**. It tests typing speed and accuracy based on random passages. It gives WPM and accuracy score when the typing is done.
 
 ## 🎮 Features
 
