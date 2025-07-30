@@ -126,11 +126,11 @@ public:
 
         startButton.setString("Start Test"); 
         startButton.setCharacterSize(28); 
-        startButton.setFillColor(sf::Color::White); 
+        startButton.setFillColor(sf::Color(240, 240, 240));
 
         playAgainButton.setString("Play Again");
         playAgainButton.setCharacterSize(28);
-        playAgainButton.setFillColor(sf::Color::White);
+        playAgainButton.setFillColor(sf::Color(240, 240, 240));
 
         accuracyText.setCharacterSize(18); 
         accuracyText.setFillColor(sf::Color(100, 255, 255)); 
@@ -139,7 +139,7 @@ public:
         centerText(startButton, startButtonBg.getPosition().y - startButton.getLocalBounds().height / 2); 
 
         cursor.setSize(sf::Vector2f(2, inputText.getCharacterSize() * 1.2f));
-        cursor.setFillColor(sf::Color::Yellow);
+        cursor.setFillColor(sf::Color(240, 240, 240));
     }
 
     void run() {
