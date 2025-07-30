@@ -185,7 +185,7 @@ public:
                     startButtonBg.setOutlineColor(sf::Color(100, 100, 200));
                 }
 
-                if (!testStarted && passageText.getString() != "Your typing speed: 0 WPM\nAccuracy: 0.00%\n" && playAgainButtonBg.getGlobalBounds().contains(mousePos)) { // Only show hover if test ended
+                if (!testStarted && passageText.getString() != "Your typing speed: 0 WPM\nAccuracy: 0.00%\n" && playAgainButtonBg.getGlobalBounds().contains(mousePos)) { 
                     playAgainButtonBg.setFillColor(sf::Color(70, 120, 70));
                     playAgainButtonBg.setOutlineColor(sf::Color(120, 255, 120));
                 }
